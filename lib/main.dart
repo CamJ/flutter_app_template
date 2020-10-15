@@ -10,10 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo', // TODO
+      initialRoute: '/',
+      routes: {'/': (context) => MyHomePage(title: 'Flutter Demo Home Page')},
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
