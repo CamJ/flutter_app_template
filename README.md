@@ -6,3 +6,4 @@ A structured template to use when creating a Flutter mobile app instead of `flut
 * Add way to keep up to date with latest templates from `flutter create X`. 
     * Manually
     * Bash script
+* Add explanation of the choices made in the structure
